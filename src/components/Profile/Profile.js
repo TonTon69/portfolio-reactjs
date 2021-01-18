@@ -2,6 +2,8 @@ import React from "react";
 import { Typography } from "@material-ui/core";
 import "./Profile.css";
 
+import CustomTimeline from "../Timeline/Timeline";
+
 const Profile = () => {
   return (
     <div className="profile container_shadow">
@@ -15,7 +17,7 @@ const Profile = () => {
       </figure>
 
       <div className="profile_information">
-        Timeline information
+        <CustomTimeline />
         <br />
         <button>btn</button>
       </div>

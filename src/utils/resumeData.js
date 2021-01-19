@@ -17,4 +17,40 @@ export default {
   },
 
   about: "Ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh. \nHhhhhhhhhhhhhhhhhh",
+  educations: [
+    {
+      title: "Education 1",
+      date: "2021 - Persent",
+      description: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    },
+    {
+      title: "Education 2",
+      date: "2021 - Persent",
+      description: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    },
+    {
+      title: "Education 3",
+      date: "2021 - Persent",
+      description: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    },
+  ],
+  experences: [
+    {
+      title: "Work 1",
+      date: "2021 - Persent",
+      description:
+        "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    },
+    {
+      title: "Work 2",
+      date: "2021 - Persent",
+      description:
+        "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    },
+    {
+      title: "Work 3",
+      date: "2021 - Persent",
+      description: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    },
+  ],
 };

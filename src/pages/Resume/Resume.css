@@ -17,9 +17,29 @@
   opacity: 0.4;
   background-color: var(--main-color);
 }
+/* About me */
 .aboutme_text {
   color: #333 !important;
   font: smaller !important;
   line-height: 22px !important;
   white-space: pre-line !important;
+}
+/* Experiences */
+.resume_timeline .timeline_content {
+  padding-top: 2px;
+  padding-bottom: 18px;
+}
+.resume_timeline .timeline_content .timeline_title {
+  font-size: 16px !important;
+  font-weight: 550 !important;
+  color: #333 !important;
+}
+.resume_timeline .timeline_content .timeline_date {
+  color: #666 !important;
+}
+.resume_timeline .timeline_description {
+  word-break: break-all !important;
+  margin-top: 6px;
+  font-size: small;
+  color: #333;
 }

@@ -3,9 +3,10 @@
 }
 .timeline .timeline_header {
   padding-top: 7px;
+  font-weight: 550;
 }
 .timeline .timeline_firstItem {
-  min-height: 80px !important;
+  min-height: 70px !important;
 }
 .timeline .MuiTimelineItem-root {
   min-height: 0px;

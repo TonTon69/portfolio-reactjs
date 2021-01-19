@@ -15,4 +15,6 @@ export default {
       icon: <GitHubIcon />,
     },
   },
+
+  about: "Ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh. \nHhhhhhhhhhhhhhhhhh",
 };

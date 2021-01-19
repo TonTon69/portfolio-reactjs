@@ -34,6 +34,8 @@
   align-items: center !important;
 }
 .header .header_right > a > .MuiSvgIcon-root {
+  display: flex;
+  align-items: center;
   color: black;
   font-size: 18px !important;
   margin-right: 12px;

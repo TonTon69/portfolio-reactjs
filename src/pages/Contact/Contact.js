@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <>
       {/* Contact */}
-      <Grid container spacing={6} className="section pt_30 pb_45">
+      <Grid container className="section pt_30 pb_45">
         {/* Contact Form */}
         <Grid item xs={12} lg={7}>
           <Grid container>
@@ -44,7 +44,7 @@ const Contact = () => {
         </Grid>
         {/* Contact Information */}
         <Grid item xs={12} lg={5}>
-          <Grid container>
+          <Grid container className="pl_30">
             <Grid item className="section_title mb_30">
               <span></span>
               <Typography variant="h6" className="section_title_text">

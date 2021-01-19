@@ -18,44 +18,32 @@ export default {
   },
 
   about:
-    "Ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh. \nHhhhhhhhhhhhhhhhhh. \nHhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahhhhhhhhhhhh",
+    "4 words always: \nalways smile, always gentle, always understanding, always help.\n \nYou should message me if you are: \nSexy, smart, fit and fun. I don’t think that’s too much to ask.\n \nMaxim live: \nNever study to be successful, study for self efficiency. Don’t run behind success. Follow behind excellence, success will come all way behind you.\n \nI love to play chess and travel.",
   educations: [
     {
-      title: "Education 1",
-      date: "2021 - Persent",
-      description:
-        "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-    },
-    {
-      title: "Education 2",
-      date: "2021 - Persent",
-      description:
-        "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-    },
-    {
-      title: "Education 3",
-      date: "2021 - Persent",
-      description:
-        "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      title: "Ho Chi Minh City University of Technology",
+      date: "2018 - Persent",
+      description: "Wish to graduate with excellence",
     },
   ],
   experences: [
     {
-      title: "Work 1",
-      date: "2021 - Persent",
+      title: "Fashion Business - Asp.Net MVC",
+      date: "2020 - 2021",
       description:
-        "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "Language used: Asp.Net MVC, SQL Server, Bootstrap 4. \nHere is the demo link for my exercises using somee.com: \nhttps://hhtfashion.somee.com/",
     },
     {
-      title: "Work 2",
-      date: "2021 - Persent",
+      title: "Course Blog - Nodejs",
+      date: "2019 - 2020",
       description:
-        "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "Language used: Handlebarsjs, Nodejs, Expressjs, MongoDB, Mongoose, Bootstrap 4. \nHere is the demo link for my exercises using heroku.com: \nhttps://tonton-blog.herokuapp.com/",
     },
     {
-      title: "Work 3",
-      date: "2021 - Persent",
-      description: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      title: "Shopee Clone - HTML",
+      date: "2019",
+      description:
+        "Language used: HTML, CSS, JavaScript. \nHere is the demo link for my exercises using surge.sh: \nhttp://shopee-clone-html.surge.sh/",
     },
   ],
   skills: [

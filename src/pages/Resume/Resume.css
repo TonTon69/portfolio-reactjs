@@ -6,9 +6,10 @@
   white-space: pre-line !important;
   word-break: break-all !important;
 }
-/* Experiences */
+
+/* Educations and Experiences */
 .resume_timeline .timeline_content {
-  padding-top: 2px;
+  padding-top: 1px;
   padding-bottom: 18px;
 }
 .resume_timeline .timeline_content .timeline_title {
@@ -20,13 +21,14 @@
   color: #666 !important;
 }
 .resume_timeline .timeline_description {
+  white-space: pre-line !important;
   word-break: break-all !important;
   margin-top: 6px;
   font-size: small;
   color: #333;
 }
-/* Skills */
 
+/* Skills */
 .skill {
   border-radius: 6px;
   padding: 20px;

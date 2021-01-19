@@ -10,6 +10,9 @@
 .p_30 {
   padding: 30px !important;
 }
+.pl_30 {
+  padding-left: 30px !important;
+}
 .pb_30 {
   padding-bottom: 30px !important;
 }
@@ -39,7 +42,7 @@
   border-radius: 6px !important;
   -webkit-border-radius: 6px !important;
   -moz-border-radius: 6px !important;
-  margin-bottom: 30px;
+  margin-bottom: 30px !important;
 }
 .section {
   padding: 0 30px;

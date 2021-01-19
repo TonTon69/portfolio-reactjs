@@ -1,5 +1,4 @@
 import React from "react";
-import FacebookIcon from "@material-ui/icons/Facebook";
 import GitHubIcon from "@material-ui/icons/GitHub";
 export default {
   name: "Huynh Minh Hoang",

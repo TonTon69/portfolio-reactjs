@@ -17,7 +17,11 @@
   color: #fff;
   background-color: var(--main-color);
   font-size: small;
-  padding: 2px;
+  padding: 6px;
+}
+.timeline .timeline_dot_header > .MuiSvgIcon-root {
+  font-size: 16px !important;
+  color: #000 !important;
 }
 /* Remaining items  */
 .timeline .timeline_dot {

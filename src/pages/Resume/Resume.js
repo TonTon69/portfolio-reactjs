@@ -1,10 +1,11 @@
 import React from "react";
-import { Grid, Typography } from "@material-ui/core";
+import { Grid, Typography, Paper } from "@material-ui/core";
 import resumeData from "../../utils/resumeData";
 import CustomTimeline, {
   CustomTimelineSeparator,
 } from "../../components/Timeline/Timeline";
 import TimelineItem from "@material-ui/lab/TimelineItem";
+import TimelineDot from "@material-ui/lab/TimelineDot";
 import TimelineContent from "@material-ui/lab/TimelineContent";
 import WorkIcon from "@material-ui/icons/Work";
 import SchoolIcon from "@material-ui/icons/School";
@@ -14,7 +15,7 @@ const Resume = () => {
   return (
     <>
       {/* About me */}
-      <Grid container className="section pb_45">
+      <Grid container className="section pb_30 pt_30">
         <Grid item className="section_title mb_30">
           <span></span>
           <Typography variant="h6" className="section_title_text">
@@ -88,10 +89,38 @@ const Resume = () => {
           </Grid>
         </Grid>
       </Grid>
-      {/* Services */}
-      <Grid container className="section"></Grid>
+
       {/* Skills */}
-      <Grid container className="section"></Grid>
+      <Grid container className="section graybg pt_30 pb_30">
+        <Grid item className="section_title mb_30">
+          <span></span>
+          <Typography variant="h6" className="section_title_text">
+            My Skills
+          </Typography>
+        </Grid>
+        <Grid item xs={12}>
+          <Grid container justify="space-between" spacing={3}>
+            {resumeData.skills.map((skill) => (
+              <Grid item xs={12} sm={6} md={3}>
+                <Paper elevation={0} className="skill">
+                  <Typography variant="h6" className="skill_title">
+                    {skill.title}
+                  </Typography>
+                  {skill.description.map((element) => (
+                    <Typography variant="body2" className="skill_description">
+                      <TimelineDot
+                        variant={"outlined"}
+                        className="timeline_dot"
+                      />
+                      {element}
+                    </Typography>
+                  ))}
+                </Paper>
+              </Grid>
+            ))}
+          </Grid>
+        </Grid>
+      </Grid>
       {/* Contact */}
       <Grid container className="section"></Grid>
     </>

@@ -24,6 +24,9 @@
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
 }
+.header .header_home > .MuiSvgIcon-root {
+  color: #fff !important;
+}
 .header .header_left {
   font-weight: 600;
   margin-right: auto;

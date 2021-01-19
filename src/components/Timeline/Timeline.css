@@ -22,7 +22,7 @@
 }
 .timeline .timeline_dot_header > .MuiSvgIcon-root {
   font-size: 16px !important;
-  color: #000 !important;
+  color: #fff !important;
 }
 /* Remaining items  */
 .timeline .timeline_dot {

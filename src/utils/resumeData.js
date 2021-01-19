@@ -16,22 +16,26 @@ export default {
     },
   },
 
-  about: "Ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh. \nHhhhhhhhhhhhhhhhhh",
+  about:
+    "Ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh. \nHhhhhhhhhhhhhhhhhh. \nHhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahhhhhhhhhhhh",
   educations: [
     {
       title: "Education 1",
       date: "2021 - Persent",
-      description: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      description:
+        "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
     },
     {
       title: "Education 2",
       date: "2021 - Persent",
-      description: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      description:
+        "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
     },
     {
       title: "Education 3",
       date: "2021 - Persent",
-      description: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      description:
+        "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
     },
   ],
   experences: [
@@ -51,6 +55,24 @@ export default {
       title: "Work 3",
       date: "2021 - Persent",
       description: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    },
+  ],
+  skills: [
+    {
+      title: "FRONT-END",
+      description: ["Bootstrap", "Javascript", "ReactJS", "Material UI"],
+    },
+    {
+      title: "BACK-END",
+      description: ["NodeJS", "ExpressJS", "Asp.Net MVC"],
+    },
+    {
+      title: "DATABASE",
+      description: ["Firebase", "MongoDB", "SQL Server"],
+    },
+    {
+      title: "SOURCE CONTROL",
+      description: ["Git", "GitHub"],
     },
   ],
 };

@@ -1,28 +1,10 @@
-.section_title {
-  position: relative;
-  display: inline-block;
-}
-.section_title .section_title_text {
-  font-size: 18px;
-  font-weight: 600;
-  position: relative;
-  margin: 0;
-}
-.section_title span {
-  position: absolute;
-  height: 5px;
-  width: 100%;
-  bottom: 5px;
-  left: 0;
-  opacity: 0.4;
-  background-color: var(--main-color);
-}
 /* About me */
 .aboutme_text {
   color: #333 !important;
   font: smaller !important;
   line-height: 22px !important;
   white-space: pre-line !important;
+  word-break: break-all !important;
 }
 /* Experiences */
 .resume_timeline .timeline_content {
@@ -42,4 +24,29 @@
   margin-top: 6px;
   font-size: small;
   color: #333;
+}
+/* Skills */
+
+.skill {
+  border-radius: 6px;
+  padding: 20px;
+  height: 100%;
+  min-height: 180px;
+  box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08) !important;
+}
+.skill .skill_title {
+  font-size: 14px !important;
+  font-weight: 550 !important;
+  line-height: 35px !important;
+}
+.skill .skill_description {
+  display: flex;
+  align-items: center;
+  line-height: 18px !important;
+  font-weight: 400 !important;
+}
+.skill .skill_description .timeline_dot {
+  border-color: var(--main-color) !important;
+  padding: 2px !important;
+  margin-right: 5px !important;
 }

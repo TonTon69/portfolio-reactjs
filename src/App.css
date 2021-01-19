@@ -13,7 +13,9 @@
 .pb_30 {
   padding-bottom: 30px !important;
 }
-
+.pb_45 {
+  padding-bottom: 45px !important;
+}
 .pt_30 {
   padding-top: 30px !important;
 }
@@ -34,9 +36,9 @@
 .main_content {
   background-color: #fff;
   min-height: 100vh;
-  border-radius: 6px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
+  border-radius: 6px !important;
+  -webkit-border-radius: 6px !important;
+  -moz-border-radius: 6px !important;
   margin-bottom: 30px;
 }
 .section {

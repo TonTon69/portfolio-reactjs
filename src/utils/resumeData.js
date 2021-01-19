@@ -1,5 +1,6 @@
 import React from "react";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import FacebookIcon from "@material-ui/icons/Facebook";
 export default {
   name: "Huynh Minh Hoang",
   title: "Web Developer",
@@ -60,11 +61,11 @@ export default {
   skills: [
     {
       title: "FRONT-END",
-      description: ["Bootstrap", "Javascript", "ReactJS", "Material UI"],
+      description: ["HTML-CSS-JS", "Bootstrap", "ReactJS", "Material UI"],
     },
     {
       title: "BACK-END",
-      description: ["NodeJS", "ExpressJS", "Asp.Net MVC"],
+      description: ["NodeJS", "ExpressJS", "Asp.Net MVC", "WordPress"],
     },
     {
       title: "DATABASE",

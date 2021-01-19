@@ -1,14 +1,7 @@
 import React from "react";
-import {
-  Navbar,
-  Nav,
-  Button,
-  NavDropdown,
-  Form,
-  FormControl,
-} from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Link, NavLink, withRouter } from "react-router-dom";
+import { NavLink, withRouter } from "react-router-dom";
 import { HomeRounded, Telegram } from "@material-ui/icons";
 import resumeData from "../../utils/resumeData";
 import CustomButton from "../Button/Button";
@@ -48,6 +41,17 @@ const Header = (props) => {
           >
             Portfolio
           </Nav.Link>
+
+          {/* Contact Link */}
+          <Nav.Link
+            as={NavLink}
+            to="/contact"
+            className={
+              pathName == "/contact" ? "header_link_active" : "header_link"
+            }
+          >
+            Contact
+          </Nav.Link>
         </Nav>
         <div className="header_right">
           {Object.keys(resumeData.socials).map((key) => (
@@ -55,7 +59,7 @@ const Header = (props) => {
               {resumeData.socials[key].icon}
             </a>
           ))}
-          <CustomButton text="Hire Me" icon={<Telegram />} />
+          <CustomButton text="Follow Me" icon={<Telegram />} />
         </div>
       </Navbar.Collapse>
     </Navbar>

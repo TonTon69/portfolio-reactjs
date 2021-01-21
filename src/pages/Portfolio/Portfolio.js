@@ -27,7 +27,7 @@ const Portfolio = () => {
     <>
       <Grid container spacing={1} className="section pt_30 pb_45">
         {/* Title */}
-        <Grid item className="section_title mb_30">
+        <Grid item className="section_title mb_20">
           <span></span>
           <Typography variant="h6" className="section_title_text">
             Portfolio

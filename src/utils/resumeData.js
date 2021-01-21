@@ -1,6 +1,6 @@
 import React from "react";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import FacebookIcon from "@material-ui/icons/Facebook";
+import LanguageIcon from "@material-ui/icons/Language";
 export default {
   name: "Huynh Minh Hoang",
   title: "Web Developer",
@@ -69,86 +69,176 @@ export default {
       tag: "React",
       image:
         "https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg?size=626&ext=jpg",
-      title: "React Project 1",
+      title: "Setting Text Color",
       description: "aaa",
       caption: "aaa",
       links: [
         {
-          link: "a",
+          link: "https://github.com/TonTon69/React-setting-text-color",
           icon: <GitHubIcon />,
         },
         {
-          link: "a",
-          icon: <GitHubIcon />,
-        },
-        {
-          link: "a",
-          icon: <GitHubIcon />,
-        },
-      ],
-    },
-    {
-      tag: "React",
-      image:
-        "https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg?size=626&ext=jpg",
-      title: "React Project 2",
-      description: "aaa",
-      caption: "aaa",
-      links: [
-        {
-          link: "a",
-          icon: <GitHubIcon />,
-        },
-        {
-          link: "a",
-          icon: <GitHubIcon />,
-        },
-        {
-          link: "a",
-          icon: <GitHubIcon />,
+          link: "https://hhtfashion.somee.com/",
+          icon: <LanguageIcon />,
         },
       ],
     },
     {
       tag: "Nodejs",
       image:
-        "https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg?size=626&ext=jpg",
-      title: "Project 2",
+        "https://res.cloudinary.com/din6v2it9/image/upload/v1611240746/image-web/nodejs-blog_ya7fmb.jpg",
+      title: "Courses Blog",
       description: "aaa",
       caption: "aaa",
       links: [
         {
-          link: "a",
+          link: "https://github.com/TonTon69/TonTon_Blog",
           icon: <GitHubIcon />,
         },
         {
-          link: "a",
-          icon: <GitHubIcon />,
+          link: "https://tonton-blog.herokuapp.com/",
+          icon: <LanguageIcon />,
         },
+      ],
+    },
+    {
+      tag: "Nodejs",
+      image:
+        "https://res.cloudinary.com/din6v2it9/image/upload/v1611245392/image-web/nodejs-book_rarrem.jpg",
+      title: "BookHouse",
+      description: "aaa",
+      caption: "aaa",
+      links: [
         {
-          link: "a",
+          link: "https://github.com/TonTon69/Books-Express",
           icon: <GitHubIcon />,
         },
       ],
     },
     {
-      tag: "Asp.Net",
+      tag: "Asp.Net MVC",
       image:
-        "https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg?size=626&ext=jpg",
-      title: "Project 2",
+        "https://res.cloudinary.com/din6v2it9/image/upload/v1611240746/image-web/fashion-aspnet_z7sc9y.jpg",
+      title: "Fashion Business",
       description: "aaa",
       caption: "aaa",
       links: [
         {
-          link: "a",
+          link: "https://github.com/TonTon69/Web-ASP.NET-MVC",
           icon: <GitHubIcon />,
         },
         {
-          link: "a",
+          link: "https://hhtfashion.somee.com/",
+          icon: <LanguageIcon />,
+        },
+      ],
+    },
+    {
+      tag: "Html",
+      image:
+        "https://res.cloudinary.com/din6v2it9/image/upload/v1611240747/image-web/shopee-html_tdwhee.jpg",
+      title: "Shopee Clone Html",
+      description: "aaa",
+      caption: "aaa",
+      links: [
+        {
+          link: "https://github.com/TonTon69/Shopee-clone-html",
           icon: <GitHubIcon />,
         },
         {
-          link: "a",
+          link: "http://shopee-clone-html.surge.sh/",
+          icon: <LanguageIcon />,
+        },
+      ],
+    },
+    {
+      tag: "Html",
+      image:
+        "https://res.cloudinary.com/din6v2it9/image/upload/v1611241875/image-web/html-porflio_yjxwst.jpg",
+      title: "Porfolio",
+      description: "aaa",
+      caption: "aaa",
+      links: [
+        {
+          link: "https://github.com/TonTon69/Personal-web",
+          icon: <GitHubIcon />,
+        },
+        {
+          link: "https://minhhoang6920.web.app/",
+          icon: <LanguageIcon />,
+        },
+      ],
+    },
+    {
+      tag: "Html",
+      image:
+        "https://res.cloudinary.com/din6v2it9/image/upload/v1611240746/image-web/muzli-html_pta6mp.jpg",
+      title: "Muzli Clone Html",
+      description: "aaa",
+      caption: "aaa",
+      links: [
+        {
+          link: "https://github.com/TonTon69/Muzli-clone",
+          icon: <GitHubIcon />,
+        },
+        {
+          link: "http://muzli-clone-html.surge.sh/",
+          icon: <LanguageIcon />,
+        },
+      ],
+    },
+    {
+      tag: "JavaScript",
+      image:
+        "https://res.cloudinary.com/din6v2it9/image/upload/v1611242730/image-web/from-validation_qp0js0.jpg",
+      title: "From Validation",
+      description: "aaa",
+      caption: "aaa",
+      links: [
+        {
+          link: "https://github.com/TonTon69/From-Validation",
+          icon: <GitHubIcon />,
+        },
+      ],
+    },
+    {
+      tag: "Designer",
+      image:
+        "https://res.cloudinary.com/din6v2it9/image/upload/v1611242594/image-web/ui-login_mtgopr.jpg",
+      title: "Login UI",
+      description: "aaa",
+      caption: "aaa",
+      links: [
+        {
+          link: "https://github.com/TonTon69/Login-UI-Design",
+          icon: <GitHubIcon />,
+        },
+      ],
+    },
+    {
+      tag: "C-Sharp",
+      image:
+        "https://res.cloudinary.com/din6v2it9/image/upload/v1611242231/image-web/qlsv_t6quug.png",
+      title: "Student Score Management",
+      description: "aaa",
+      caption: "aaa",
+      links: [
+        {
+          link: "https://github.com/TonTon69/QuanLySinhVien-Winform",
+          icon: <GitHubIcon />,
+        },
+      ],
+    },
+    {
+      tag: "C-Sharp",
+      image:
+        "https://res.cloudinary.com/din6v2it9/image/upload/v1611242306/image-web/qlfashion_ka7kml.jpg",
+      title: "Modern Fashion Business",
+      description: "aaa",
+      caption: "aaa",
+      links: [
+        {
+          link: "https://github.com/TonTon69/Modern-Fashion-C-Sharp",
           icon: <GitHubIcon />,
         },
       ],

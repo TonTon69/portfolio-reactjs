@@ -15,18 +15,25 @@
 
 /* Cards */
 .customCard {
+  position: relative !important;
   height: 100%;
   max-width: 350px;
   border-radius: 6px;
   box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08) !important;
-  overflow: hidden;
+  overflow: hidden !important;
   outline-width: 0px !important;
+}
+.customCard:hover .customCard_image {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
 }
 .customCard .MuiCardActionArea-root:focus {
   outline: none !important;
 }
 .customCard .customCard_image {
   height: 140px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .customCard .customCard_title {
   font-weight: 550;

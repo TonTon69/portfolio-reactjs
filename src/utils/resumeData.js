@@ -64,4 +64,94 @@ export default {
       description: ["Git", "GitHub"],
     },
   ],
+  projects: [
+    {
+      tag: "React",
+      image:
+        "https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg?size=626&ext=jpg",
+      title: "React Project 1",
+      description: "aaa",
+      caption: "aaa",
+      links: [
+        {
+          link: "a",
+          icon: <GitHubIcon />,
+        },
+        {
+          link: "a",
+          icon: <GitHubIcon />,
+        },
+        {
+          link: "a",
+          icon: <GitHubIcon />,
+        },
+      ],
+    },
+    {
+      tag: "React",
+      image:
+        "https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg?size=626&ext=jpg",
+      title: "React Project 2",
+      description: "aaa",
+      caption: "aaa",
+      links: [
+        {
+          link: "a",
+          icon: <GitHubIcon />,
+        },
+        {
+          link: "a",
+          icon: <GitHubIcon />,
+        },
+        {
+          link: "a",
+          icon: <GitHubIcon />,
+        },
+      ],
+    },
+    {
+      tag: "Nodejs",
+      image:
+        "https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg?size=626&ext=jpg",
+      title: "Project 2",
+      description: "aaa",
+      caption: "aaa",
+      links: [
+        {
+          link: "a",
+          icon: <GitHubIcon />,
+        },
+        {
+          link: "a",
+          icon: <GitHubIcon />,
+        },
+        {
+          link: "a",
+          icon: <GitHubIcon />,
+        },
+      ],
+    },
+    {
+      tag: "Asp.Net",
+      image:
+        "https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg?size=626&ext=jpg",
+      title: "Project 2",
+      description: "aaa",
+      caption: "aaa",
+      links: [
+        {
+          link: "a",
+          icon: <GitHubIcon />,
+        },
+        {
+          link: "a",
+          icon: <GitHubIcon />,
+        },
+        {
+          link: "a",
+          icon: <GitHubIcon />,
+        },
+      ],
+    },
+  ],
 };

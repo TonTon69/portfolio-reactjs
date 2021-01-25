@@ -1,11 +1,10 @@
 import React from "react";
-import emailjs from "emailjs-com";
 import { Grid, Typography, TextField } from "@material-ui/core";
 import resumeData from "../../utils/resumeData";
 import CustomButton from "../../components/Button/Button";
 import { useForm } from "react-hook-form";
 import "./Contact.css";
-const Contact = () => {
+const Contact = ({ env }) => {
   const { register, handleSubmit, errors } = useForm();
   const onSubmit = (data, r) => {
     alert(`Thank you for your message from ${data.email}`);

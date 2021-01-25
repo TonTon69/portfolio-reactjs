@@ -5,6 +5,7 @@ import "./Button.css";
 const CustomButton = ({ text, icon }) => {
   return (
     <Button
+      type="submit"
       className="custom_btn"
       endIcon={icon ? <div className="btn_icon_container">{icon}</div> : null}
     >

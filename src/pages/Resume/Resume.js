@@ -1,10 +1,9 @@
 import React from "react";
-import { Grid, Typography, Paper, TextField } from "@material-ui/core";
+import { Grid, Typography, Paper } from "@material-ui/core";
 import resumeData from "../../utils/resumeData";
 import CustomTimeline, {
   CustomTimelineSeparator,
 } from "../../components/Timeline/Timeline";
-import CustomButton from "../../components/Button/Button";
 import TimelineItem from "@material-ui/lab/TimelineItem";
 import TimelineDot from "@material-ui/lab/TimelineDot";
 import TimelineContent from "@material-ui/lab/TimelineContent";

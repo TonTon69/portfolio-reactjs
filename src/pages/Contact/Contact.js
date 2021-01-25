@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Typography, Paper, TextField } from "@material-ui/core";
+import { Grid, Typography, TextField } from "@material-ui/core";
 import resumeData from "../../utils/resumeData";
 import CustomButton from "../../components/Button/Button";
 import "./Contact.css";
@@ -44,7 +44,7 @@ const Contact = () => {
         </Grid>
         {/* Contact Information */}
         <Grid item xs={12} lg={5}>
-          <Grid container className="pl_30">
+          <Grid container className="container_contact_info pl_30">
             <Grid item className="section_title mb_30">
               <span></span>
               <Typography variant="h6" className="section_title_text">

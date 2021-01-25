@@ -70,16 +70,12 @@ export default {
       image:
         "https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg?size=626&ext=jpg",
       title: "Setting Text Color",
-      description: "aaa",
-      caption: "aaa",
+      description: "Language used: Reactjs",
+      caption: "Project setting text color",
       links: [
         {
           link: "https://github.com/TonTon69/React-setting-text-color",
           icon: <GitHubIcon />,
-        },
-        {
-          link: "https://hhtfashion.somee.com/",
-          icon: <LanguageIcon />,
         },
       ],
     },
@@ -88,8 +84,9 @@ export default {
       image:
         "https://res.cloudinary.com/din6v2it9/image/upload/v1611240746/image-web/nodejs-blog_ya7fmb.jpg",
       title: "Courses Blog",
-      description: "aaa",
-      caption: "aaa",
+      description:
+        "Programming community.\nLearn to code through hands-on learning with quality courses.\nLanguage used: Handlebarsjs, Nodejs, Expressjs, MongoDB, Mongoose, Bootstrap 4",
+      caption: "Programming community",
       links: [
         {
           link: "https://github.com/TonTon69/TonTon_Blog",
@@ -106,8 +103,9 @@ export default {
       image:
         "https://res.cloudinary.com/din6v2it9/image/upload/v1611245392/image-web/nodejs-book_rarrem.jpg",
       title: "BookHouse",
-      description: "aaa",
-      caption: "aaa",
+      description:
+        "Building book business website.\nLanguage used: Pugjs, Nodejs, Expressjs, MongoDB, Mongoose, Bootstrap 4",
+      caption: "Building book business website",
       links: [
         {
           link: "https://github.com/TonTon69/Books-Express",
@@ -120,8 +118,9 @@ export default {
       image:
         "https://res.cloudinary.com/din6v2it9/image/upload/v1611240746/image-web/fashion-aspnet_z7sc9y.jpg",
       title: "Fashion Business",
-      description: "aaa",
-      caption: "aaa",
+      description:
+        "Building fashion business website.\nAsian fashion style.\nLanguage used: Bootstrap 4, Asp.net MVC, SQL Server",
+      caption: "Building fashion business website",
       links: [
         {
           link: "https://github.com/TonTon69/Web-ASP.NET-MVC",
@@ -138,8 +137,9 @@ export default {
       image:
         "https://res.cloudinary.com/din6v2it9/image/upload/v1611240747/image-web/shopee-html_tdwhee.jpg",
       title: "Shopee Clone Html",
-      description: "aaa",
-      caption: "aaa",
+      description:
+        "This is a static website, cloned shopee.\nLanguage used: html-css-js",
+      caption: "Static fashion website",
       links: [
         {
           link: "https://github.com/TonTon69/Shopee-clone-html",
@@ -156,8 +156,9 @@ export default {
       image:
         "https://res.cloudinary.com/din6v2it9/image/upload/v1611241875/image-web/html-porflio_yjxwst.jpg",
       title: "Porfolio",
-      description: "aaa",
-      caption: "aaa",
+      description:
+        "This is a static website, my resume.\nLanguage used: html-css-js",
+      caption: "Static porfolio website",
       links: [
         {
           link: "https://github.com/TonTon69/Personal-web",
@@ -174,8 +175,8 @@ export default {
       image:
         "https://res.cloudinary.com/din6v2it9/image/upload/v1611240746/image-web/muzli-html_pta6mp.jpg",
       title: "Muzli Clone Html",
-      description: "aaa",
-      caption: "aaa",
+      description: "This is a static news website.\nLanguage used: html-css-js",
+      caption: "Static news website",
       links: [
         {
           link: "https://github.com/TonTon69/Muzli-clone",
@@ -192,8 +193,9 @@ export default {
       image:
         "https://res.cloudinary.com/din6v2it9/image/upload/v1611242730/image-web/from-validation_qp0js0.jpg",
       title: "From Validation",
-      description: "aaa",
-      caption: "aaa",
+      description:
+        "Check the validity of the user login and register.\nLanguage used: html-css-js",
+      caption: "Test from",
       links: [
         {
           link: "https://github.com/TonTon69/From-Validation",
@@ -206,8 +208,8 @@ export default {
       image:
         "https://res.cloudinary.com/din6v2it9/image/upload/v1611242594/image-web/ui-login_mtgopr.jpg",
       title: "Login UI",
-      description: "aaa",
-      caption: "aaa",
+      description: "Design from login.\nLanguage used: html-css",
+      caption: "From login",
       links: [
         {
           link: "https://github.com/TonTon69/Login-UI-Design",
@@ -220,8 +222,9 @@ export default {
       image:
         "https://res.cloudinary.com/din6v2it9/image/upload/v1611242231/image-web/qlsv_t6quug.png",
       title: "Student Score Management",
-      description: "aaa",
-      caption: "aaa",
+      description:
+        "Student score management.\nLanguage used: c#, entity framework",
+      caption: "Winform student management",
       links: [
         {
           link: "https://github.com/TonTon69/QuanLySinhVien-Winform",
@@ -234,8 +237,9 @@ export default {
       image:
         "https://res.cloudinary.com/din6v2it9/image/upload/v1611242306/image-web/qlfashion_ka7kml.jpg",
       title: "Modern Fashion Business",
-      description: "aaa",
-      caption: "aaa",
+      description:
+        "Fashion business software.\nLanguage used: c#, entity framework",
+      caption: "Winform fashion business",
       links: [
         {
           link: "https://github.com/TonTon69/Modern-Fashion-C-Sharp",

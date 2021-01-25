@@ -55,6 +55,7 @@
 }
 .projectDialog .projectDialog_description {
   margin-top: 10px !important;
+  white-space: break-spaces !important;
 }
 .projectDialog .projectDialog_actions {
   justify-content: center !important;

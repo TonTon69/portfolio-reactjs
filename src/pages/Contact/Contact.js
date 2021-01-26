@@ -4,12 +4,18 @@ import resumeData from "../../utils/resumeData";
 import CustomButton from "../../components/Button/Button";
 import { useForm } from "react-hook-form";
 import "./Contact.css";
-const Contact = ({ env }) => {
+
+const {
+  REACT_APP_EMAILJS_TEMPLATEID,
+  REACT_APP_EMAILJS_SERVICEID,
+} = process.env;
+
+const Contact = () => {
   const { register, handleSubmit, errors } = useForm();
   const onSubmit = (data, r) => {
     alert(`Thank you for your message from ${data.email}`);
-    const templateId = "contact-template";
-    const serviceID = "gmail";
+    const templateId = REACT_APP_EMAILJS_TEMPLATEID;
+    const serviceID = REACT_APP_EMAILJS_SERVICEID;
     sendFeedback(serviceID, templateId, {
       name: data.name,
       message: data.message,

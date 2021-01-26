@@ -5,7 +5,6 @@ import TimelineSeparator from "@material-ui/lab/TimelineSeparator";
 import TimelineConnector from "@material-ui/lab/TimelineConnector";
 import TimelineContent from "@material-ui/lab/TimelineContent";
 import TimelineDot from "@material-ui/lab/TimelineDot";
-import AccountCircleIcon from "@material-ui/icons/AccountCircle";
 
 import "./Timeline.css";
 import { Typography } from "@material-ui/core";
